@@ -17,10 +17,10 @@ end
 using Plots
 
 # ╔═╡ ecafe340-4535-4bb7-86cf-0b2621599698
-begin
-	import PlutoUI
-    PlutoUI.LocalResource("/Users/joy/Desktop/JuliaWeb/images/course_banner.png")
-end
+# begin
+#	import PlutoUI
+#    PlutoUI.LocalResource("/Users/joy/Desktop/JuliaWeb/images/course_banner.png")
+# end
 
 # ╔═╡ 34f1ebc6-1dec-4b71-8405-d742402590d4
 md" In this page, we will showcase using Julia and Pluto in teaching Optics. In this demonstration, I will explain data visualization and interactive quiz. "
@@ -31,13 +31,13 @@ Tranditional optics, such as eye glasses and camera lenses, have material of the
 
 
 # ╔═╡ d4b6fc53-a9e8-473e-b9b9-dbaf547a92f9
-PlutoUI.LocalResource("/Users/joy/Desktop/JuliaWeb/images/tradition_lens.png",:width=>400)
+# PlutoUI.LocalResource("/Users/joy/Desktop/JuliaWeb/images/tradition_lens.png",:width=>400)
 
 # ╔═╡ 9a54c4cb-dfb5-4ebf-bfed-bcbe9c544317
 md" In other words, the materials of the traditional optics are uniform. Traditional optics relies on the **shape** of the lenses to focus or diverge light as shown below:"
 
 # ╔═╡ f71f567a-0693-4e85-a6c9-4343b5a1087b
-PlutoUI.LocalResource("/Users/joy/Desktop/JuliaWeb/images/tradition_optics.jpeg",:width => 500)
+# PlutoUI.LocalResource("/Users/joy/Desktop/JuliaWeb/images/tradition_optics.jpeg",:width => 500)
 
 # ╔═╡ 6acec85b-8e61-4408-b279-3bb13ac5ad4e
 md"## Interactive instruction
@@ -54,7 +54,7 @@ md" Are you familiar with the concept of focal length? "
 md" Focal length characterizes the ability of a lens to converge or diverge light! **How is focal length related to the shape of a lens?** To answer this question, we need to learn the **Lens maker's equation**."
 
 # ╔═╡ 737553ae-cbe5-42cc-a309-450fb3823da4
-PlutoUI.LocalResource("/Users/joy/Desktop/JuliaWeb/images/lensMakerEquation.png",:width => 300)
+# PlutoUI.LocalResource("/Users/joy/Desktop/JuliaWeb/images/lensMakerEquation.png",:width => 300)
 
 # ╔═╡ e94c2956-9633-4e1e-85f5-e1275fe0e17c
 md""" Confused? If you would like to watch a video to explain Lens maker's equation check here: $(@bind video_flag html"<input type=checkbox >")
